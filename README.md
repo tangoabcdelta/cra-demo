@@ -1,3 +1,19 @@
+# Folder Structure
+
+It should look like the following:
+
+```
+/src
+    index.js: the starting point for the app
+    App.js: the top-level React component
+    /app
+        store.js: creates the Redux store instance
+    /features
+        /counter
+            Counter.js: a React component that shows the UI for the counter feature
+            counterSlice.js: the Redux logic for the counter feature
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
